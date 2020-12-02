@@ -1,4 +1,4 @@
-# dokuwiki-plugin-drupal8
+# dokuwiki-plugin-authdrupal8
 Authentication plugin for dokuwiki, authenticate with drupal8 accounts
 
 This plugin might be useful if you are running a drupal8 website and want to give your drupal users access to a dokuwiki using the same login credentials.
