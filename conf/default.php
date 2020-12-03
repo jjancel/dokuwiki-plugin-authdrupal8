@@ -5,9 +5,9 @@
  * @author jjancel <jjancel@dialoguesenhumanite.org>
  */
 
-$conf['database']	= 'jjancel_dru8tst';
-$conf['username']	= 'root';
-$conf['password']	= 'root';
+$conf['database']	= '';
+$conf['username']	= '';
+$conf['password']	= '';
 $conf['prefix']		= '';
 $conf['host']			= 'localhost';
-$conf['debug']		= 2;
+$conf['debug']		= 0;
