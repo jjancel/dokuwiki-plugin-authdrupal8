@@ -4,4 +4,4 @@ email  jj.ancel@laposte.nat
 date   2020-12-02
 name   Drupal8 authentication plugin
 desc   Dokuwiki Authetication using Drupal8 accounts
-url    ???
+url    http://www.dokuwiki.org/plugin:authdrupal8
