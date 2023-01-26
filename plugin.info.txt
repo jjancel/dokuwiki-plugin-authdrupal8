@@ -1,7 +1,7 @@
 base   authdrupal8
 author jjancel
 email  jj.ancel@laposte.nat
-date   2020-12-03
-name   Drupal8 authentication plugin
-desc   Dokuwiki Authetication using Drupal8 accounts
+date   2023-01-26
+name   Drupal8 and 9 authentication plugin
+desc   Dokuwiki Authetication using Drupal8 and 9 accounts
 url    http://www.dokuwiki.org/plugin:authdrupal8
