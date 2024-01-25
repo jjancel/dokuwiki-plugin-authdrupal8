@@ -146,17 +146,6 @@ function _password_crypt($algo, $password, $setting) {
  }
  // Drupal 10 Password hashing is changed 2023/01/25
  if ($setting[0] == '$' && $setting[3] == '$') {
-  echo "<script>alert('jjancel debug $algo, $password, $setting')</script>";
-  if (password_verify($password, $setting)) {
-   echo "<script>alert('Le mot de passe est correct')</script>";
-   return $setting;
-  } else {
-   echo "<script>alert('Le mot de passe est incorrect')</script>";
-   return FALSE;
-  }
-  echo "<script>alert('continu test')</script>";
- }
-
  // The first 12 characters of an existing hash are its setting string.
  $setting = substr($setting, 0, 12);
  if ($setting[0] != '$' || $setting[2] != '$') {
