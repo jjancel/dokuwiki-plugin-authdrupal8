@@ -1,7 +1,7 @@
 # dokuwiki-plugin-authdrupal8
 Authentication plugin for dokuwiki, authenticate with Drupal8 accounts to **Drupal10 with changed password hash**
 
-This plugin might be useful if you are running a drupal8 website and want to give your drupal users access to a dokuwiki using the same login credentials.
+This plugin might be useful if you are running a drupal website and want to give your drupal users access to a dokuwiki using the same login credentials.
 
 If you install this plugin manually, make sure it is installed in
 lib/plugins/authdrupal8/ - if the folder is called different it
