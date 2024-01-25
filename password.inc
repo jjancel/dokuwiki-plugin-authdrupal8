@@ -146,6 +146,12 @@ function _password_crypt($algo, $password, $setting) {
  }
  // Drupal 10 Password hashing is changed 2023/01/25
  if ($setting[0] == '$' && $setting[3] == '$') {
+  if (password_verify($password, $setting)) {
+   return $setting;
+  } else {
+   return FALSE;
+  }
+ }
  // The first 12 characters of an existing hash are its setting string.
  $setting = substr($setting, 0, 12);
  if ($setting[0] != '$' || $setting[2] != '$') {
