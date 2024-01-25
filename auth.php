@@ -1,11 +1,11 @@
 <?php
 /**
 * DokuWiki Plugin authdrupal8 (Auth Component)
-* Provides authentication against a Drupal8 MySQL database backend
+* Provides authentication against a Drupal8 to Drupal10 MySQL database backend
 * @author     jjancel <jjancel@dialoguesenhumanite.org>
-* @copyright  2020 jjancel
+* @copyright  2024 jjancel
 * @license    GPL 2 http://www.gnu.org/licenses/gpl-2.0.html
-* @version    1.0
+* @version    1.1
 *
 * Plugin is widely based on the MySQL authentication backend by
 * Matthias Jung <matzekuh@web.de>
